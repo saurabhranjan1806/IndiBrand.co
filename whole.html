@@ -1,465 +1,479 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>IndiBrand | Home</title>
-    
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&amp;subset=latin-ext" rel="stylesheet">
-    
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-    <style>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>IndiBrand | Home</title>
+        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&amp;subset=latin-ext" rel="stylesheet">
+        
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <style>
         video {
-            max-width: 100%;
-            height: auto;
+        max-width: 100%;
+        height: auto;
         }
-    </style>
-
-</head>
-<body>
-    <header class="site-header">
-        <div class="top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <p>IndiBrand.co</p>
-                    </div>
-                    <div class="col-sm-6">
-                        <ul class="list-inline pull-right">
-                            <!-- <li><a href="https://www.facebook.com/rotary/"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="https://twitter.com/rotary"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="https://www.youtube.com/user/RotaryInternational"><i class="fa fa-youtube"></i></a></li> -->
-                            <li><a href="mailto:order@indibrand.co"><i class="fa fa-envelope-o"></i> order@indibrand.co</a></li>
-                            <li><a href="tel: 7004313693"><i class="fa fa-phone"></i> 7004313693</a></li>
-                        </ul>                        
+        .no-js #loader { display: none;  }
+        .js #loader { display: block; position: absolute; left: 100px; top: 0; }
+        .loader {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 9997;
+        background: url(/img/giphy.gif) center no-repeat #fff;
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery//1.12.4/jquery.min.js"></script>
+        <script>
+        $(window).load(function() {
+            $(".loader").fadeOut("slow");;
+        });
+        </script>
+    </head>
+    <body>
+        <div class="loader"></div>
+        <header class="site-header">
+            <div class="top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p>IndiBrand.co</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <ul class="list-inline pull-right">
+                                <!-- <li><a href="https://www.facebook.com/rotary/"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/rotary"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.youtube.com/user/RotaryInternational"><i class="fa fa-youtube"></i></a></li> -->
+                                <li><a href="mailto:order@indibrand.co"><i class="fa fa-envelope-o"></i> order@indibrand.co</a></li>
+                                <li><a href="tel: 7004313693"><i class="fa fa-phone"></i> 7004313693</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <nav class="navbar navbar-default">
-            <div class="container">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse">
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse">
                     <span class="sr-only">Toggle Navigation</span>
                     <i class="fa fa-bars"></i>
-                </button>
-                <a href="index.html" class="navbar-brand">
-                    <img src="img/logo2.JPG" alt="Post" width="320px" height="80px"">
-                </a>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-navbar-collapse">
-                    <ul class="nav navbar-nav main-navbar-nav">
-                        <li class=""><a href="index.html" title="">HOME</a></li>
-                        <li class="dropdown">
-                            <a href="#" title="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SPICES <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="ground.html" title="">Ground</a></li>
-                                <li class="active"><a href="whole.html" title="">Whole</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="basmati.html" title="">RICE</a></li>
-                        <li><a href="frozen-iqf.html" title="">FROZEN IQF</a></li>
-                        <li><a href="brochure.html" title="">BROCHURE</a></li>
-                        <li><a href="getintouch.html" title="">GET IN TOUCH</a></li>
-                    </ul>                           
-                </div><!-- /.navbar-collapse -->                
-                <!-- END MAIN NAVIGATION -->
-            </div>
-        </nav>        
-    </header>
-    <div class="bread_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <ol class="breadcrumb">
-                        <li><a href="index.html" title="Post">Home</a></li>
-                        <li><a href="#" title="Post">Spices</a></li>
-                        <li class="active">Whole</li>
-                    </ol>                    
-                </div>
-            </div>
-        </div>
-    </div>
-    <main class="site-main">
-        <section class="boxes_area">
-            <div class="container">
-                <div class="row" style="background-color: #fc8a0e; border-radius: 25px; padding: 40px;">
-                    <div class="col-md-4">
-                        <h2 style="color: white">WHOLE SPICES</h2>
-                    </div>
-                    <div class="col-md-8">
-                        <p style="color: white">Indian spices in their whole form are just addictive. Thus, once you have tasted the richness of whole spices, you just cannot do with anything else. Here at Indi Brand, we get you the best authentic spices, grown and procured with utmost hygienic techniques. Whole spices stay fresher and last longer. Not just a few, but we deal in export of all kinds of whole spices grown in the Indian subcontinent. The bulk packagings of the whole spices are done with the best quality packaging materials and in accordance with the international standards, so that they retain their freshness and aroma.</p>
-                    </div>
-                </div><hr><br>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/whole/pic1.jpg" class="img-responsive" alt="founder of rotary">
-                            <div class="caption">
-                                <center><h4>Red Chilly</h4>
-                                <p>Synonymous to tasting hot, these are one of the most commonly used spices around the world.</p></center>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/whole/pic2.jpg" class="img-responsive" alt="founder of rotary">
-                            <div class="caption">
-                                <center><h4>Turmeric</h4>
-                                <p>Widely and extensively used in many dishes and rice preparations for its characterstic color and flavour.</p></center>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/whole/pic3.jpg" class="img-responsive" alt="founder of rotary">
-                            <div class="caption">
-                                <center><h4>Cardamom (Small)</h4>
-                                <p>Has a strong, unique taste, with an intensely aromatic, resinous fragrance.</p></center>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/whole/pic4.jpg" class="img-responsive" alt="founder of rotary">
-                            <div class="caption">
-                                <center><h4>Cardamom (Large)</h4>
-                                <p>It has a distinctly more smokey, though not bitter, aroma, widely used in both sweet and savory dishes.</p></center>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/whole/pic5.jpg" class="img-responsive" alt="founder of rotary">
-                            <div class="caption">
-                                <center><h4>Cinnamon Sticks</h4>
-                                <p>Principally employed in cookery as a condiment and flavouring material mostly in desrt recipes.</p></center>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/whole/pic6.jpg" class="img-responsive" alt="founder of rotary">
-                            <div class="caption">
-                                <center><h4>Cloves</h4>
-                                <p>Used to give aromatic and flavor qualities to hot beverages, often combined with other ingredients and also used in spice blends.</p></center>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/whole/pic7.jpg" class="img-responsive" alt="founder of rotary">
-                            <div class="caption">
-                                <center><h4>Corriander Seeds</h4>
-                                <p>have a lemony citrus flavour when crushed. It is described as warm, nutty, spicy, and orange-flavoured.</p></center>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/whole/pic8.jpg" class="img-responsive" alt="founder of rotary">
-                            <div class="caption">
-                                <center><h4>Cumin Seeds</h4>
-                                <p>Used for its distinctive flavour and aroma, these add an earthly and warming feeling to the food.</p></center>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/whole/pic9.jpg" class="img-responsive" alt="founder of rotary">
-                            <div class="caption">
-                                <center><h4>Black Pepper Powder</h4>
-                                <p>Dried ground pepper has been used since antiquity for both its flavour and as a traditional medicine becoming the world's most traded spice.</p></center>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/whole/pic10.jpg" class="img-responsive" alt="founder of rotary">
-                            <div class="caption">
-                                <center><h4>Ginger Powder</h4>
-                                <p>Powdered dry ginger root is typically used as a flavoring for recipes such as gingerbread, cookies, crackers and cakes, ginger ale, and ginger beer.</p></center>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/whole/pic11.jpg" class="img-responsive" alt="founder of rotary">
-                            <div class="caption">
-                                <center><h4>Dry Mango Powder</h4>
-                                <p>It has a honey-like fragrance and a sour fruity flavor and is a tart pale-beige-to-brownish powder used in dishes where acidity is required.</p></center>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/whole/pic12.jpg" class="img-responsive" alt="founder of rotary">
-                            <div class="caption">
-                                <center><h4>Nutmeg Powder</h4>
-                                <p>It is used in many sweet, as well as savoury dishes and also added in small quantities as a medicine for infants.</p></center>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/whole/pic13.jpg" class="img-responsive" alt="founder of rotary">
-                            <div class="caption">
-                                <center><h4>Cloves Powder</h4>
-                                <p>It carries a very strong flavour and often used for its aroma and unique tasting qualities.</p></center>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/whole/pic14.jpg" class="img-responsive" alt="founder of rotary">
-                            <div class="caption">
-                                <center><h4>White Pepper Powder</h4>
-                                <p>It has a milder, more delicate flavour than black pepper useful for adding a peppery flavour to light-coloured sauces and soups.</p></center>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/whole/pic15.jpg" class="img-responsive" alt="founder of rotary">
-                            <div class="caption">
-                                <center><h4>Yellow Mustard Powder</h4>
-                                <p>This regular mustard powder has a bit of heat used to add a tangy kick to salad dressings, sauces, potato or tuna salad.</p></center>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/whole/pic16.jpg" class="img-responsive" alt="founder of rotary">
-                            <div class="caption">
-                                <center><h4>Green Cardamom Powder</h4>
-                                <p>It has a strong, unique spicy-sweet taste, which is slightly aromatic used in main dishes, deserts, biscuits, drinks and in many other ways.</p></center>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/whole/pic17.jpg" class="img-responsive" alt="founder of rotary">
-                            <div class="caption">
-                                <center><h4>Green Cardamom Powder</h4>
-                                <p>It has a strong, unique spicy-sweet taste, which is slightly aromatic used in main dishes, deserts, biscuits, drinks and in many other ways.</p></center>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/whole/pic18.jpg" class="img-responsive" alt="founder of rotary">
-                            <div class="caption">
-                                <center><h4>Green Cardamom Powder</h4>
-                                <p>It has a strong, unique spicy-sweet taste, which is slightly aromatic used in main dishes, deserts, biscuits, drinks and in many other ways.</p></center>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/whole/pic19.jpg" class="img-responsive" alt="founder of rotary">
-                            <div class="caption">
-                                <center><h4>Green Cardamom Powder</h4>
-                                <p>It has a strong, unique spicy-sweet taste, which is slightly aromatic used in main dishes, deserts, biscuits, drinks and in many other ways.</p></center>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/whole/pic20.jpg" class="img-responsive" alt="founder of rotary">
-                            <div class="caption">
-                                <center><h4>Green Cardamom Powder</h4>
-                                <p>It has a strong, unique spicy-sweet taste, which is slightly aromatic used in main dishes, deserts, biscuits, drinks and in many other ways.</p></center>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/whole/pic21.jpg" class="img-responsive" alt="founder of rotary">
-                            <div class="caption">
-                                <center><h4>Green Cardamom Powder</h4>
-                                <p>It has a strong, unique spicy-sweet taste, which is slightly aromatic used in main dishes, deserts, biscuits, drinks and in many other ways.</p></center>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/whole/pic22.jpg" class="img-responsive" alt="founder of rotary">
-                            <div class="caption">
-                                <center><h4>Green Cardamom Powder</h4>
-                                <p>It has a strong, unique spicy-sweet taste, which is slightly aromatic used in main dishes, deserts, biscuits, drinks and in many other ways.</p></center>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/whole/pic23.jpg" class="img-responsive" alt="founder of rotary">
-                            <div class="caption">
-                                <center><h4>Green Cardamom Powder</h4>
-                                <p>It has a strong, unique spicy-sweet taste, which is slightly aromatic used in main dishes, deserts, biscuits, drinks and in many other ways.</p></center>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/whole/pic24.jpg" class="img-responsive" alt="founder of rotary">
-                            <div class="caption">
-                                <center><h4>Green Cardamom Powder</h4>
-                                <p>It has a strong, unique spicy-sweet taste, which is slightly aromatic used in main dishes, deserts, biscuits, drinks and in many other ways.</p></center>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/whole/pic25.jpg" class="img-responsive" alt="founder of rotary">
-                            <div class="caption">
-                                <center><h4>Green Cardamom Powder</h4>
-                                <p>It has a strong, unique spicy-sweet taste, which is slightly aromatic used in main dishes, deserts, biscuits, drinks and in many other ways.</p></center>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/whole/pic26.jpg" class="img-responsive" alt="founder of rotary">
-                            <div class="caption">
-                                <center><h4>Green Cardamom Powder</h4>
-                                <p>It has a strong, unique spicy-sweet taste, which is slightly aromatic used in main dishes, deserts, biscuits, drinks and in many other ways.</p></center>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/whole/pic27.jpg" class="img-responsive" alt="founder of rotary">
-                            <div class="caption">
-                                <center><h4>Green Cardamom Powder</h4>
-                                <p>It has a strong, unique spicy-sweet taste, which is slightly aromatic used in main dishes, deserts, biscuits, drinks and in many other ways.</p></center>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img src="img/whole/pic28.jpg" class="img-responsive" alt="founder of rotary">
-                            <div class="caption">
-                                <center><h4>Green Cardamom Powder</h4>
-                                <p>It has a strong, unique spicy-sweet taste, which is slightly aromatic used in main dishes, deserts, biscuits, drinks and in many other ways.</p></center>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- <section class="services">
-            <h2 class="section-title">Rotary Causes</h2>
-            <p class="desc">We at Rotary serve humanity with all our heart without any feeling of taking back.</p>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="thumbnail">
-                            <img src="img/pdgs/c1.png" class="img-responsive" width="250px" height="250px">
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="thumbnail">
-                            <img src="img/pdgs/c2.jpg" class="img-responsive" width="250px" height="250px">
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="thumbnail">
-                            <img src="img/pdgs/c11.jpg" class="img-responsive" width="250px" height="250px">
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="thumbnail">
-                            <img src="img/pdgs/c13.jpg" class="img-responsive" width="250px" height="250px">
-                        </div>
-                    </div>
-                                        
-                </div>
-            </div>
-        </section> -->
-        
-    </main>
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="img/logo2.JPG" class="img-responsive" width="320px" height="100px">
-                </div>
-                <!-- <div class="col-md-2"></div> -->
-                <div class="col-md-3 col-sm-6 fbox">
-                    <h4>IndiBrand Pvt. Ltd.</h4>
-                    <p class="text">Delivering at your doorstep!</p>
-                    <ul class="list-inline">
-                        <li><a href="mailto:order@indibrand.co"><i class="fa fa-envelope-o"></i></a></li>
-                        <li><a href="tel: 7004313693"><i class="fa fa-phone"></i></a></li>                       
-                    </ul>
-                </div>
-                <div class="col-md-2"></div>
-                <div class="col-md-3 col-sm-6 fbox">
-                    <h4>Quote</h4>
-                    <p class="text">Genius ain't anything more than elegant common sense.</p>
-                    <!-- <p><a href="tel:+902222222222"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> +90 222 222 22 22</a></p> -->
-                    <p><a href="mailto:ask@indibrand.co"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> ask@indibrand.co</a></p>
-                </div>
-            </div>
-        </div>
-        <div id="copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <p class="pull-left">&copy; Saurabh Ranjan</p>
-                    </div>
-                    <div class="col-md-8">
-                        <ul class="list-inline navbar-right">
-                            <li><a href="index.html">HOME</a></li>
-                            <li><a href="ground.html">GROUND</a></li>
-                            <li><a href="whole.html">WHOLE</a></li>
-                            <li><a href="frozen-iqf.html">FROZEN IQF</a><li>
-                            <li><a href="getintouch.html">GET IN TOUCH</a></li>
+                    </button>
+                    <a href="index.html" class="navbar-brand">
+                        <img src="img/logo2.JPG" alt="Post" width="320px" height="80px"">
+                    </a>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-navbar-collapse">
+                        <ul class="nav navbar-nav main-navbar-nav">
+                            <li class=""><a href="index.html" title="">HOME</a></li>
+                            <li class="dropdown">
+                                <a href="#" title="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SPICES <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="ground.html" title="">Ground</a></li>
+                                    <li class="active"><a href="whole.html" title="">Whole</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="basmati.html" title="">RICE</a></li>
+                            <li><a href="frozen-iqf.html" title="">FROZEN IQF</a></li>
+                            <li><a href="brochure.html" title="">BROCHURE</a></li>
+                            <li><a href="getintouch.html" title="">GET IN TOUCH</a></li>
                         </ul>
+                        </div><!-- /.navbar-collapse -->
+                        <!-- END MAIN NAVIGATION -->
+                    </div>
+                </nav>
+            </header>
+            <div class="bread_area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ol class="breadcrumb">
+                                <li><a href="index.html" title="Post">Home</a></li>
+                                <li><a href="#" title="Post">Spices</a></li>
+                                <li class="active">Whole</li>
+                            </ol>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>        
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-        $('.carousel[data-type="multi"] .item').each(function(){
-          var next = $(this).next();
-          if (!next.length) {
+            <main class="site-main">
+                <section class="boxes_area">
+                    <div class="container">
+                        <div class="row" style="background-color: #fc8a0e; border-radius: 25px; padding: 40px;">
+                            <div class="col-md-4">
+                                <h2 style="color: white">WHOLE SPICES</h2>
+                            </div>
+                            <div class="col-md-8">
+                                <p style="color: white">Indian spices in their whole form are just addictive. Thus, once you have tasted the richness of whole spices, you just cannot do with anything else. Here at Indi Brand, we get you the best authentic spices, grown and procured with utmost hygienic techniques. Whole spices stay fresher and last longer. Not just a few, but we deal in export of all kinds of whole spices grown in the Indian subcontinent. The bulk packagings of the whole spices are done with the best quality packaging materials and in accordance with the international standards, so that they retain their freshness and aroma.</p>
+                            </div>
+                        </div><hr><br>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="img/whole/pic1.jpg" class="img-responsive" alt="founder of rotary">
+                                    <div class="caption">
+                                        <center><h4>Red Chilly</h4>
+                                        <p>Synonymous to tasting hot, these are one of the most commonly used spices around the world.</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="img/whole/pic2.jpg" class="img-responsive" alt="founder of rotary">
+                                    <div class="caption">
+                                        <center><h4>Turmeric</h4>
+                                        <p>Widely and extensively used in many dishes and rice preparations for its characterstic color and flavour.</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="img/whole/pic3.jpg" class="img-responsive" alt="founder of rotary">
+                                    <div class="caption">
+                                        <center><h4>Cardamom (Small)</h4>
+                                        <p>Has a strong, unique taste, with an intensely aromatic, resinous fragrance.</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="img/whole/pic4.jpg" class="img-responsive" alt="founder of rotary">
+                                    <div class="caption">
+                                        <center><h4>Cardamom (Large)</h4>
+                                        <p>It has a distinctly more smokey, though not bitter, aroma, widely used in both sweet and savory dishes.</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="img/whole/pic5.jpg" class="img-responsive" alt="founder of rotary">
+                                    <div class="caption">
+                                        <center><h4>Cinnamon Sticks</h4>
+                                        <p>Principally employed in cookery as a condiment and flavouring material mostly in desrt recipes.</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="img/whole/pic6.jpg" class="img-responsive" alt="founder of rotary">
+                                    <div class="caption">
+                                        <center><h4>Cloves</h4>
+                                        <p>Used to give aromatic and flavor qualities to hot beverages, often combined with other ingredients and also used in spice blends.</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="img/whole/pic7.jpg" class="img-responsive" alt="founder of rotary">
+                                    <div class="caption">
+                                        <center><h4>Corriander Seeds</h4>
+                                        <p>have a lemony citrus flavour when crushed. It is described as warm, nutty, spicy, and orange-flavoured.</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="img/whole/pic8.jpg" class="img-responsive" alt="founder of rotary">
+                                    <div class="caption">
+                                        <center><h4>Cumin Seeds</h4>
+                                        <p>Used for its distinctive flavour and aroma, these add an earthly and warming feeling to the food.</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="img/whole/pic9.jpg" class="img-responsive" alt="founder of rotary">
+                                    <div class="caption">
+                                        <center><h4>Black Pepper Powder</h4>
+                                        <p>Dried ground pepper has been used since antiquity for both its flavour and as a traditional medicine becoming the world's most traded spice.</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="img/whole/pic10.jpg" class="img-responsive" alt="founder of rotary">
+                                    <div class="caption">
+                                        <center><h4>Ginger Powder</h4>
+                                        <p>Powdered dry ginger root is typically used as a flavoring for recipes such as gingerbread, cookies, crackers and cakes, ginger ale, and ginger beer.</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="img/whole/pic11.jpg" class="img-responsive" alt="founder of rotary">
+                                    <div class="caption">
+                                        <center><h4>Dry Mango Powder</h4>
+                                        <p>It has a honey-like fragrance and a sour fruity flavor and is a tart pale-beige-to-brownish powder used in dishes where acidity is required.</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="img/whole/pic12.jpg" class="img-responsive" alt="founder of rotary">
+                                    <div class="caption">
+                                        <center><h4>Nutmeg Powder</h4>
+                                        <p>It is used in many sweet, as well as savoury dishes and also added in small quantities as a medicine for infants.</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="img/whole/pic13.jpg" class="img-responsive" alt="founder of rotary">
+                                    <div class="caption">
+                                        <center><h4>Cloves Powder</h4>
+                                        <p>It carries a very strong flavour and often used for its aroma and unique tasting qualities.</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="img/whole/pic14.jpg" class="img-responsive" alt="founder of rotary">
+                                    <div class="caption">
+                                        <center><h4>White Pepper Powder</h4>
+                                        <p>It has a milder, more delicate flavour than black pepper useful for adding a peppery flavour to light-coloured sauces and soups.</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="img/whole/pic15.jpg" class="img-responsive" alt="founder of rotary">
+                                    <div class="caption">
+                                        <center><h4>Yellow Mustard Powder</h4>
+                                        <p>This regular mustard powder has a bit of heat used to add a tangy kick to salad dressings, sauces, potato or tuna salad.</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="img/whole/pic16.jpg" class="img-responsive" alt="founder of rotary">
+                                    <div class="caption">
+                                        <center><h4>Green Cardamom Powder</h4>
+                                        <p>It has a strong, unique spicy-sweet taste, which is slightly aromatic used in main dishes, deserts, biscuits, drinks and in many other ways.</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="img/whole/pic17.jpg" class="img-responsive" alt="founder of rotary">
+                                    <div class="caption">
+                                        <center><h4>Green Cardamom Powder</h4>
+                                        <p>It has a strong, unique spicy-sweet taste, which is slightly aromatic used in main dishes, deserts, biscuits, drinks and in many other ways.</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="img/whole/pic18.jpg" class="img-responsive" alt="founder of rotary">
+                                    <div class="caption">
+                                        <center><h4>Green Cardamom Powder</h4>
+                                        <p>It has a strong, unique spicy-sweet taste, which is slightly aromatic used in main dishes, deserts, biscuits, drinks and in many other ways.</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="img/whole/pic19.jpg" class="img-responsive" alt="founder of rotary">
+                                    <div class="caption">
+                                        <center><h4>Green Cardamom Powder</h4>
+                                        <p>It has a strong, unique spicy-sweet taste, which is slightly aromatic used in main dishes, deserts, biscuits, drinks and in many other ways.</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="img/whole/pic20.jpg" class="img-responsive" alt="founder of rotary">
+                                    <div class="caption">
+                                        <center><h4>Green Cardamom Powder</h4>
+                                        <p>It has a strong, unique spicy-sweet taste, which is slightly aromatic used in main dishes, deserts, biscuits, drinks and in many other ways.</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="img/whole/pic21.jpg" class="img-responsive" alt="founder of rotary">
+                                    <div class="caption">
+                                        <center><h4>Green Cardamom Powder</h4>
+                                        <p>It has a strong, unique spicy-sweet taste, which is slightly aromatic used in main dishes, deserts, biscuits, drinks and in many other ways.</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="img/whole/pic22.jpg" class="img-responsive" alt="founder of rotary">
+                                    <div class="caption">
+                                        <center><h4>Green Cardamom Powder</h4>
+                                        <p>It has a strong, unique spicy-sweet taste, which is slightly aromatic used in main dishes, deserts, biscuits, drinks and in many other ways.</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="img/whole/pic23.jpg" class="img-responsive" alt="founder of rotary">
+                                    <div class="caption">
+                                        <center><h4>Green Cardamom Powder</h4>
+                                        <p>It has a strong, unique spicy-sweet taste, which is slightly aromatic used in main dishes, deserts, biscuits, drinks and in many other ways.</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="img/whole/pic24.jpg" class="img-responsive" alt="founder of rotary">
+                                    <div class="caption">
+                                        <center><h4>Green Cardamom Powder</h4>
+                                        <p>It has a strong, unique spicy-sweet taste, which is slightly aromatic used in main dishes, deserts, biscuits, drinks and in many other ways.</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="img/whole/pic25.jpg" class="img-responsive" alt="founder of rotary">
+                                    <div class="caption">
+                                        <center><h4>Green Cardamom Powder</h4>
+                                        <p>It has a strong, unique spicy-sweet taste, which is slightly aromatic used in main dishes, deserts, biscuits, drinks and in many other ways.</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="img/whole/pic26.jpg" class="img-responsive" alt="founder of rotary">
+                                    <div class="caption">
+                                        <center><h4>Green Cardamom Powder</h4>
+                                        <p>It has a strong, unique spicy-sweet taste, which is slightly aromatic used in main dishes, deserts, biscuits, drinks and in many other ways.</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="img/whole/pic27.jpg" class="img-responsive" alt="founder of rotary">
+                                    <div class="caption">
+                                        <center><h4>Green Cardamom Powder</h4>
+                                        <p>It has a strong, unique spicy-sweet taste, which is slightly aromatic used in main dishes, deserts, biscuits, drinks and in many other ways.</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="img/whole/pic28.jpg" class="img-responsive" alt="founder of rotary">
+                                    <div class="caption">
+                                        <center><h4>Green Cardamom Powder</h4>
+                                        <p>It has a strong, unique spicy-sweet taste, which is slightly aromatic used in main dishes, deserts, biscuits, drinks and in many other ways.</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- <section class="services">
+                    <h2 class="section-title">Rotary Causes</h2>
+                    <p class="desc">We at Rotary serve humanity with all our heart without any feeling of taking back.</p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="thumbnail">
+                                    <img src="img/pdgs/c1.png" class="img-responsive" width="250px" height="250px">
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="thumbnail">
+                                    <img src="img/pdgs/c2.jpg" class="img-responsive" width="250px" height="250px">
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="thumbnail">
+                                    <img src="img/pdgs/c11.jpg" class="img-responsive" width="250px" height="250px">
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="thumbnail">
+                                    <img src="img/pdgs/c13.jpg" class="img-responsive" width="250px" height="250px">
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </section> -->
+                
+            </main>
+            <footer class="site-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img/logo2.JPG" class="img-responsive" width="320px" height="100px">
+                        </div>
+                        <!-- <div class="col-md-2"></div> -->
+                        <div class="col-md-3 col-sm-6 fbox">
+                            <h4>IndiBrand Pvt. Ltd.</h4>
+                            <p class="text">Delivering at your doorstep!</p>
+                            <ul class="list-inline">
+                                <li><a href="mailto:order@indibrand.co"><i class="fa fa-envelope-o"></i></a></li>
+                                <li><a href="tel: 7004313693"><i class="fa fa-phone"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-3 col-sm-6 fbox">
+                            <h4>Quote</h4>
+                            <p class="text">Genius ain't anything more than elegant common sense.</p>
+                            <!-- <p><a href="tel:+902222222222"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> +90 222 222 22 22</a></p> -->
+                            <p><a href="mailto:ask@indibrand.co"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> ask@indibrand.co</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div id="copyright">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <p class="pull-left">&copy; Saurabh Ranjan</p>
+                            </div>
+                            <div class="col-md-8">
+                                <ul class="list-inline navbar-right">
+                                    <li><a href="index.html">HOME</a></li>
+                                    <li><a href="ground.html">GROUND</a></li>
+                                    <li><a href="whole.html">WHOLE</a></li>
+                                    <li><a href="frozen-iqf.html">FROZEN IQF</a><li>
+                                    <li><a href="getintouch.html">GET IN TOUCH</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script type="text/javascript">
+            $('.carousel[data-type="multi"] .item').each(function(){
+            var next = $(this).next();
+            if (!next.length) {
             next = $(this).siblings(':first');
-          }
-          next.children(':first-child').clone().appendTo($(this));
-
-          for (var i=0;i<4;i++) {
+            }
+            next.children(':first-child').clone().appendTo($(this));
+            for (var i=0;i<4;i++) {
             next=next.next();
             if (!next.length) {
-                next = $(this).siblings(':first');
+            next = $(this).siblings(':first');
             }
-
             next.children(':first-child').clone().appendTo($(this));
-          }
-        });        
-    </script>
-</body>
-</html>
+            }
+            });
+            </script>
+        </body>
+    </html>
